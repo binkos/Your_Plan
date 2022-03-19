@@ -1,4 +1,4 @@
-package com.vladoleg.plantracker.app.theme
+package com.vladoleg.plantracker.coreui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
