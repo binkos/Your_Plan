@@ -1,4 +1,4 @@
-package com.vladoleg.app.plantracker.ui.theme
+package com.vladoleg.plantracker.app.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
