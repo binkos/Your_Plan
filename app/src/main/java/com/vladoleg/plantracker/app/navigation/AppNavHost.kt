@@ -18,10 +18,10 @@ fun AppNavHost(
         startDestination = AppScreen.SPLASH_SCREEN.name
     ) {
         composable(route = AppScreen.SPLASH_SCREEN.name) {
-            SplashScreen()
+            val toMainScreen = { controller.navigate(AppScreen.MAIN_SCREEN.name) { popUpTo(0) } }
+            SplashScreen(toMainScreen)
         }
         composable(route = AppScreen.MAIN_SCREEN.name) {
-
         }
     }
 }
