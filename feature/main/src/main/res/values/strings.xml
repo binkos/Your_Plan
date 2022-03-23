@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="more">More</string>
+    <string name="notifications">Notification</string>
+    <string name="profile">Profile</string>
+    <string name="whiteboard">Whiteboard</string>
+</resources>
