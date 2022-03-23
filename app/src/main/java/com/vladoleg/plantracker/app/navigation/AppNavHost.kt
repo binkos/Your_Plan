@@ -5,6 +5,7 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import com.vladoleg.plantracker.main.ui.MainScreen
 import com.vladoleg.plantracker.onboarding.ui.SplashScreen
 
 @Composable
@@ -22,6 +23,7 @@ fun AppNavHost(
             SplashScreen(toMainScreen)
         }
         composable(route = AppScreen.MAIN_SCREEN.name) {
+            MainScreen()
         }
     }
 }
